@@ -10,7 +10,7 @@ imageDescription: Bowl of delicious soba noodles with mice, boc choy and spring 
 ---
 
 ## Background
-I (Simone) was feeling inspired by watching other people eat Taiwanese sesame noodles on TikTok. But I was concerned the sesame flavour would trigger taste fatigue after the first few bites. Also, the lack of protein in most recipes concerned me. Tofu came up as a suggestion in my research, but A: I’ve never been good at cooking tofu, and B: I can picture how disappointed Basim would be watching me prepare it. So I headed to the Asian supermarket for Inso and worked it out. This meal is yummm.
+I (Simone) was feeling inspired by watching other people eat Taiwanese sesame noodles on TikTok. But I was concerned the sesame flavour would trigger taste fatigue after the first few bites. Also, the lack of protein in most recipes concerned me. Tofu came up as a suggestion in my research, but A: I’ve never been good at cooking tofu, and B: I can picture how disappointed Basim would be watching me prepare it. So I headed to the Asian supermarket for inspo and worked it out. This meal is yummm.
 
 ## Ingredients
 
