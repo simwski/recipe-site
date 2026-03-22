@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Our Recipes</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div class="site-wrapper">
+      <header class="site-header">
+        <h1 class="site-header__title">Basim & Simone's recipes</h1>
+        <p class="site-header__subtitle">Documented so Simone does not forget.</p>
+      </header>
+      <main id="main-content">
+        {{ content | safe }}
+      </main>
+      <footer class="site-footer">
+        <span>Made with the most <span aria-label="sexy love"><3</span></span>
+      </footer>
+    </div>
+  </body>
+</html>

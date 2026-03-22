@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | Sim's Recipes</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header class="site-header">
+        <nav> 
+        <ul>
+         <li><a class="nav-back" href="/"><span aria-hidden="true">← </span>Back</a></li>
+         <li><a href="#background">Background</a></li>
+         <li><a href="#ingredients">Ingredients</a></li>
+         <li><a href="#method">Method</a></li>
+        </ul>
+        </nav>
+      </header>
+      <main id="main-content">
+      <h1>{{ title }}</h1>
+      <dl class="recipe-meta">
+      <div>
+            <dt>Time:</dt>
+            <dd>{{ time }}</dd>
+            </div>
+        <div>
+          <dt>Serves:</dt>
+          <dd>{{ serves }}</dd>
+          </div>
+            <div>
+             <dt>Date:</dt>
+              <dd>{{ dateMade }}</dd>
+              </div>
+        </dl>
+       {% if image %}
+    <img
+      src="{{ image }}"
+      alt="{{ imageDescription }}"
+      class="recipe-image"
+      width="680"
+      height="460"
+    >
+    {% endif %}
+          {{ content | safe }}
+      </main>
+      <footer class="site-footer">
+        <span>Made with love <span aria-hidden="true"> <3</span></span>
+        <a href="/"> <span aria-hidden="true">←</span> Back to all recipes</a>
+      </footer>
+    </div>
+  </body>
+</html>
