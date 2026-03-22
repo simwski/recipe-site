@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Home - Sim's recipes
+title: Home
 ---
 
 <nav class="recipe-nav" aria-label="Recipes">
